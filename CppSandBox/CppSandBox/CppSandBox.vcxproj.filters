@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Algorithm">
+      <UniqueIdentifier>{38db7721-bd34-4521-b4dc-74d6f0fd62dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithm\DataStructure">
+      <UniqueIdentifier>{123bd456-cad1-4efa-8576-4ab6d0c9b285}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithm\BasicAlgorithm">
+      <UniqueIdentifier>{22358538-9f77-4bb5-9aff-fbd9a641b5b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithm\DataStructure\LinkedList">
+      <UniqueIdentifier>{3df8f3e6-842f-4a79-ae7e-6aa234934ff4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithm\DataStructure\LinkedList\Header">
+      <UniqueIdentifier>{769cf888-7b64-4d83-8156-7e8c0a2774cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithm\DataStructure\LinkedList\Source">
+      <UniqueIdentifier>{0a60e16c-a6d9-4ce9-930b-4bb50278b8f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internal Module">
+      <UniqueIdentifier>{8706e0da-4ab4-482e-bd47-91d9d057f61c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internal Module\Menu">
+      <UniqueIdentifier>{d2f4b4b0-ebc8-442d-bb4c-791fc087b770}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internal Module\Menu\Source">
+      <UniqueIdentifier>{002637c9-9b3e-4912-86be-2f0cb4c9b4e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internal Module\Menu\Header">
+      <UniqueIdentifier>{636ba631-2ba5-4542-a5d3-6718c16c77cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internal Module\CSV IO">
+      <UniqueIdentifier>{5447ec5f-7f5c-493d-b1b9-9e4b62f457d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internal Module\CSV IO\Header">
+      <UniqueIdentifier>{88cdd9f8-21b1-4bea-bfda-88edcdc32772}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internal Module\CSV IO\Source">
+      <UniqueIdentifier>{e247078b-7c17-4728-bf91-ac135b1e96a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internal Module\ClangSetting">
+      <UniqueIdentifier>{325b1b67-a6a9-45a4-a6ba-5c1dbf8ea2b1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainSource.cpp">
+      <Filter>Internal Module\Menu\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".clang-tidy">
+      <Filter>Internal Module\ClangSetting</Filter>
+    </None>
+  </ItemGroup>
+</Project>
